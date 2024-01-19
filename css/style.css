@@ -84,6 +84,9 @@ body {
   color: var(--black);
   background-color: var(--white);
 }
+.site-container {
+  overflow: hidden;
+}
 
 a {
   color: inherit;
@@ -103,7 +106,7 @@ ul {
  /* width: 100%;*/
   padding: 0 65px;/*15*/
   margin: 0 auto;
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 
 .btn {
@@ -1099,7 +1102,8 @@ ul {
 
 .footer__container {
   margin: 0;
-  padding: 50px 0;
+  padding: 0;
+  padding-top: 50px;
   overflow: hidden;
   align-items: center;
   display: flex;
